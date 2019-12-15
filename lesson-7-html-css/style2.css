@@ -1,0 +1,25 @@
+body {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+a[href^="https://"] {
+    color: #f70;
+}
+
+a[href*="google"] {
+    color: gray;
+}
+
+.fa-external-link-alt {
+    color: #f70;
+    font-size: 1.3rem;
+}
+
+/*
+a[target="_blank"]:after {
+    content: "\21F2";
+}
+Еще такое решение есть, но стрелочка подчернута и смотрит не в ту сторону. Как ее перевернуть я не знаю, сдаюсь :(
+ */
+
