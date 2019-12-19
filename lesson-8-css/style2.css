@@ -38,6 +38,7 @@ nav a:hover {
 }
 
 nav li:last-child {
-    margin-left: 273px;
+    float: right;
+    overflow: auto;
 }
 
