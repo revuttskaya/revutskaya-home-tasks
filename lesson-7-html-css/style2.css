@@ -1,0 +1,21 @@
+body {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+a[href^="https://"] {
+    color: #f70;
+}
+
+a[href*="google"] {
+    color: gray;
+}
+
+a[target="_blank"]:after {
+    content: "\21F1";
+    position:absolute;
+    transform: rotate(360deg) scaleX(-1);
+}
+
+
+
