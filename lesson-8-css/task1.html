@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Task1 of the 8th lesson</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Sign up to the app</h1>
+  <form action="#">
+    <fieldset>
+      <legend>Personal information</legend>
+      <label>First name: <br/>
+        <input type="text" name="firstname" value="Mickey"><br/>
+      </label>
+      <br/>
+      <label>Last name: <br/>
+        <input type="text" name="lastname" value="Mouse"><br/>
+      </label>
+      <br/>
+      <label>Self-presentation<br/>
+        <textarea name="selfpresentation" cols="30" rows="8">The cat was playing in the garden</textarea>
+      </label>
+    </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Car info (the brand):</legend>
+      <select name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Saab">Saab</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+    </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <label><input type="radio" name="gender" value="male" checked>Male</label><br/>
+      <label><input type="radio" name="gender" value="female">Female</label><br/>
+      <label><input type="radio" name="gender" value="other">Other</label><br/>
+    </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <label><input type="checkbox" name="vehicle1" value="bike">I have a bike</label><br/>
+      <label><input type="checkbox" name="vehicle2" value="car">I have a car</label>
+    </fieldset>
+    <br/>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+</body>
+</html>
