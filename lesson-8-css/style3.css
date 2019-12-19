@@ -1,13 +1,18 @@
+img {
+    width: 1200px;
+}
+
 table {
     border-collapse: collapse;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 td {
     border: 2px none #cccccc;
     border-bottom-style: solid;
-    padding: 10px 15px;
+    padding: 6px 11px;
 }
 
 tr:nth-child(2n) {
