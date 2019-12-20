@@ -36,10 +36,12 @@ nav a {
 nav a:hover {
     background-color: #eee;
     color: #A0A0A2;
+    box-shadow: 0 0 10px gray;
 }
 
 nav li:last-child {
     float: right;
     overflow: auto;
 }
+
 
