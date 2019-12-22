@@ -1,0 +1,69 @@
+img {
+    width: 700px;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #FAFAFA;
+    width: 700px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #AF57DB;
+}
+
+li:nth-child(3) a, li:nth-child(4) a, li:nth-child(n+6):nth-child(-n+10) a {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 10px 13px;
+    margin: 15px 2px;
+}
+
+li:nth-child(-n+2) a, li:nth-child(n+11) a {
+    padding: 8px 10px;
+    margin: 15px 2px;
+}
+
+li:nth-child(-n+2) a:before {
+    content: "\00AB";
+    padding: 4px;
+    color: #AF57DB;
+}
+
+li:nth-child(n+11) a:after {
+    content: "\00BB";
+    padding: 4px;
+    color: #AF57DB;
+}
+
+li:nth-child(5) {
+    padding: 10px 12px;
+    margin: 15px 1px;
+}
+
+li:nth-child(3) a:hover, li:nth-child(4) a:hover, li:nth-child(n+6):nth-child(-n+10) a:hover {
+    background-color: #A23BD1;
+    color: #ffffff;
+    border: 2px solid #8F28C6;
+    padding: 9px 12px;
+}
+
+li:nth-child(-n+2) a:hover, li:nth-child(n+11) a:hover, li:nth-child(5) a:hover {
+    text-decoration: underline #AF57DB;
+}
+
