@@ -7,7 +7,6 @@ img {
 nav {
     width: 54.2%;
     min-width: 450px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: #A64DFF;
@@ -23,11 +22,11 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     padding: 5px 13px;
     color: #FBF2EB;
     text-decoration: none;
@@ -36,12 +35,12 @@ nav a {
 nav a:hover {
     background-color: #eee;
     color: #A0A0A2;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray; /*Подскажите, почему в вашем решении box-shadow находится в nav{}?*/
+    /*Тень над MORE почему-то не появляется, только под этой надписью. Но если сделать экран уже, то тень есть со всех сторон*/
 }
 
 nav li:last-child {
     float: right;
-    overflow: auto;
 }
 
 
