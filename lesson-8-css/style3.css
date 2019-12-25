@@ -1,0 +1,25 @@
+img {
+    width: 1200px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    border: 2px none #cccccc;
+    border-bottom-style: solid;
+    padding: 6px 11px;
+}
+
+tr:nth-child(2n) {
+    background-color: #DDEBF8;
+}
+
+td:nth-child(2n+3) {
+    background-color: #F2F2DD;
+}
+
