@@ -1,0 +1,95 @@
+img {
+    float: left;
+}
+
+.price {
+    position: relative;
+    display: inline-block;
+    height: 470px;
+    width: 300px;
+    min-width: 300px;
+    margin: 40px;
+    text-align: center;
+    background-color: #EE8129;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 10px darkgrey;
+}
+
+.price-header {
+    text-transform: uppercase;
+    font-size: 23px;
+    color: white;
+    margin: 27px;
+}
+
+.price-other-info {
+    position: absolute;
+    background-color: white;
+    top: 80px;
+    left: 4px;
+    width: 292px;
+    height: 386px;
+}
+
+.price-name-of-product {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: black;
+    margin: 20px 20px 10px 20px;
+}
+
+.price-tag {
+    font-size: 70px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.price-tag:before {
+    content: "\0024";
+    font-size: 24px;
+    vertical-align: top;
+
+}
+
+.price-tag:after {
+    content: "Monthly";
+    font-size: 18px;
+    vertical-align: bottom;
+}
+
+.price-content {
+    list-style-image: url(images/arrow.png);
+    margin: 30px 10px 10px 10px;
+    padding: 0;
+
+}
+
+.price-content li {
+    list-style-position: inside;
+    padding: 7px 5px 7px 35px;
+    margin: 1px;
+    text-align: left;
+    color: #999EA6;
+}
+
+.price-content li:nth-child(odd) {
+    background-color: #E8F2FB;
+}
+
+.price-content li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+.enroll-button {
+    display: block;
+    background-color: #EE8129;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 15px;
+    width: 260px;
+    line-height: 37px;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #B3560B;
+}
