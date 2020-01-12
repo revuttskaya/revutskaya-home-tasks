@@ -1,1 +1,47 @@
-/* Write your code here */
+.customers {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.customer {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.customer__photo {
+    width: 60%;
+    box-shadow: 4px 4px 19px -5px rgba(0, 0, 0, 0.94);
+}
+
+.container {
+    width: 40%;
+    padding: 14% 5%;
+}
+
+.customer__name {
+    color: #d83f2d;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.customer__position {
+    color: #b2b2b0;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.customer__feedback {
+    margin: 5px;
+}
+
+.customer:nth-child(2n+1) .container {
+    float: right;
+    text-align: right;
+}
+
+.customer:nth-child(2n) .customer__photo {
+    float: right;
+}
