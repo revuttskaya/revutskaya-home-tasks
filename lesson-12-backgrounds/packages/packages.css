@@ -40,6 +40,7 @@ body {
 
 .plan__list-item:nth-child(2n) {
     margin: 0;
+    text-align: right;
 }
 
 .plan__annotation {
