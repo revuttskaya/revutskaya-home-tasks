@@ -1,0 +1,9 @@
+@import "components/service__item/services__item.css";
+
+:root {
+    --cherry: #890000;
+    --rose: #d33834;
+    --lightCoral: #ff8e87;
+    --white: #f9e6e3;
+    --thunder: #393539;
+}
